@@ -1,5 +1,5 @@
-// Valdis Saulespurens 221RD B000
-// https://github.com/valdis-saulespurens/c-arithmetic-parser
+// Devansh Chugh 241ADB054
+// https://github.com/DevChugh0055/calc-arithmetic-parser
 // Compile with: gcc -O2 -Wall -Wextra -std=c17 -o calc calc.c -lm
 
 #include <stdio.h>
@@ -270,12 +270,11 @@ int is_comment_line(const char *line) {
 }
 
 char* get_student_info(char *name, char *lastname, char *studentid) {
-    // In a real implementation, you might get this from environment variables
-    // or configuration. For this example, we'll use hardcoded values.
-    strcpy(name, "Valdis");
-    strcpy(lastname, "Saulespurens");
-    strcpy(studentid, "221RD B000");
-    return "Valdis Saulespurens 221RD B000";
+    // Using your actual information
+    strcpy(name, "Devansh");
+    strcpy(lastname, "Chugh");
+    strcpy(studentid, "241ADB054");
+    return "Devansh Chugh 241ADB054";
 }
 
 void process_file(const char *input_path, const char *output_dir, 
